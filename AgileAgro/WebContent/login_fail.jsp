@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>AgileAgro | Login</title>
+    <title>AgileAgro | Login Failed!</title>
 
     <!-- Bootstrap -->
     <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,20 +26,16 @@
       <div id="wrapper">
         <div id="login" class=" form">
           <section class="login_content">
-            <form action="AgileAgro/login_fail.jsp">
-              <h1>AgileAgro | Login</h1>
+            <form>
+              <h1> Login Failed!</h1>
               <div>
-                <input type="text" class="form-control" placeholder="Agro Instance ID" required="" />
+              <h3>Sorry, could not log you on! </h3>
+              <h5>Either of the username or password that you have entered is invalid. .</h5>
+              <h5><a class="btn btn-default submit"  href="/AgileAgro/">Try again</a></h5>
+                
               </div>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <input class="btn btn-default submit" type="submit" value="Log in">
-              </div>
+             
+             
               <div class="clearfix"></div>
               <div class="separator">
                 <div class="clearfix"></div>
