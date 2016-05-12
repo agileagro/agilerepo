@@ -35,7 +35,6 @@
                 
               </div>
              
-             
               <div class="clearfix"></div>
               <div class="separator">
                 <div class="clearfix"></div>

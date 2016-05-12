@@ -10,6 +10,7 @@
     <title>AgileAgro | Login</title>
 
     <!-- Bootstrap -->
+    
     <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -26,7 +27,7 @@
       <div id="wrapper">
         <div id="login" class=" form">
           <section class="login_content">
-            <form action="AgileAgro/login_fail.jsp">
+            <form action="/AgileAgro/login_fail.jsp">
               <h1>AgileAgro | Login</h1>
               <div>
                 <input type="text" class="form-control" placeholder="Agro Instance ID" required="" />
